@@ -30,8 +30,8 @@ export const AuthProvider = ({ children }) => {
 
   const value = {
     currentUser,
-    signup,
     login,
+    signup,
   };
 
   return (
