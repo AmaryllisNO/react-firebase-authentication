@@ -19,7 +19,7 @@ const Login = () => {
       setLoading(true);
       await login(emailRef.current.value, passwordRef.current.value);
     } catch {
-      setError('failed to create an account');
+      setError('failed to sign in');
     }
     setLoading(false);
   };
